@@ -104,3 +104,13 @@ console.log("Second largest number:", secondLargestNumber);
 
 
 
+
+let numbers : number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+function multiplyTiw(){
+    for (let i = 0; i < numbers.length; i++) {
+        numbers[i] *= 2;
+}
+
+    console.log(numbers);
+}
+
